@@ -60,7 +60,7 @@ header {
   right: 0;
   left: 0;
   height: 5vh;
-  z-index: var(--layer-1);
+  z-index: var(--layer-2);
   background: var(--white);
   color: var(--blue-700);
   box-shadow: var(--shadow-1);
@@ -98,7 +98,7 @@ main article:first-child {
   height: 95vh;
   margin-top: 5vh;
   position: relative;
-  z-index: var(--layer-2);
+  z-index: var(--layer-1);
   background: var(--white) url("../img/deep0726-16bit.jpg");
   background-size: cover;
   columns: unset;
@@ -113,6 +113,10 @@ main article:first-child h3 {
   right: 5vw;
   top: 10vh;
   transform: rotate(30deg);
+}
+
+section {
+  margin-inline: 2rem;
 }
 
 h4 {
