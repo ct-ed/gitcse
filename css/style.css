@@ -32,6 +32,12 @@
 }
 
 /* Default Settings */
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
 html {
   background: var(--white);
   color: var(--black);
@@ -54,10 +60,10 @@ header {
   right: 0;
   left: 0;
   height: 5vh;
-  z-index: 2;
+  z-index: var(--layer-2);
   background: var(--white);
   color: var(--blue-700);
-  box-shadow: 0.2em 0.2em 0.2em 0.2em var(--black);
+  box-shadow: var(--shadow-1);
 }
 
 .branding {
@@ -91,7 +97,7 @@ main article:first-child {
   width: 100%;
   height: 95vh;
   position: relative;
-  z-index: 1;
+  z-index: var(--layer-1);
   background: var(--white) url("../img/deep0726-16bit.jpg");
   background-size: cover;
   columns: unset;
