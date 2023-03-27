@@ -32,11 +32,6 @@
 }
 
 /* Default Settings */
-html, body {
-  margin: 0;
-  padding: 0;
-}
-
 html {
   background: var(--white);
   color: var(--black);
@@ -75,29 +70,6 @@ header {
 /*  width: 5rem; */
 }
 
-header nav {
-  background: var(--blue-900);
-  color: var(--white);
-}
-
-nav ul {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-bottom: 0;
-}
-
-nav li {
-  display: inline-block;
-  margin-right: 4em;
-}
-
-nav a {
-  font-size: 1.5em;
-  color: var(--white);
-  text-decoration: none;
-}
-
 .rubrik h1, .rubrik h2 {
   margin: 0;
   padding: 0;
@@ -108,9 +80,6 @@ nav a {
 }
 
 /* Main */
-header + * {
-  margin-top: 7em;
-}
 
 article {
   columns: 3;
