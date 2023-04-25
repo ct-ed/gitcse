@@ -1,7 +1,7 @@
 /* Imports */
 
-@import "https://unpkg.com/open-props";
-@import "https://unpkg.com/open-props/normalize.min.css";
+@import url("https://unpkg.com/open-props");
+@import url("https://unpkg.com/open-props/normalize.min.css");
 
 /* Default Colours */
 :root {
@@ -61,10 +61,6 @@ p {
 
 /* Header */
 header {
-  position: fixed;
-  top: 0;
-  right: 0;
-  left: 0;
   height: 8vh;
   z-index: var(--layer-2);
   background: var(--white);
